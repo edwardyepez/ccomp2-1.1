@@ -94,7 +94,17 @@ int main() {
     }
 
     //ejercicio 6
-    //ejercicio 7
+  cout<<"ejercicio 7"<<endl;
+  int num,a,b,c,d,e;
+    cin >>num;
+
+    a= num%10;
+    b= num%100/10;
+    c= num%1000/100;
+    d= num%10000/1000;
+    e= num%100000/10000;
+
+    cout <<e<<"\t"<<d<<"\t"<<c<<"\t"<<b<<"\t"<<a;
 
   cout<<"ejercicio 8"<<endl;
 

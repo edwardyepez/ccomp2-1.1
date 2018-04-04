@@ -82,16 +82,7 @@ int main() {
 
 
 
-    cout<<"ejercicio 5"<<endl;
-    int p;
-    cout<<"Ingrese un numero: "<<endl;
-    cin>>p;
-    if(p%2!=0 and p%3!=0 and p%5!=0 and p%7!=0 and p%11){
-        cout<<"El numero es primo"<<endl;
-    }
-    else{
-        cout<<"No es primo"<<endl;
-    }
+   
 
     //ejercicio 6
   cout<<"ejercicio 7"<<endl;

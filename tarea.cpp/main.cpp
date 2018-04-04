@@ -138,8 +138,20 @@ int main() {
     cout<<"no es bisiesto"<<endl;
   }
 
+cout<<"ejercicio 10"<<endl;
+    int numero;
+    cout<<"ingesa tu numero:"<<endl;
+    cin >>numero;
 
-
+    int a=0;
+    int b=1;
+    int c;
+    for(int i=0;i!=numero;i++){
+        c=b+a;
+        a=b;
+        b=c;
+        cout <<a<<" "<<endl;
+    }
 
 
   return 0;

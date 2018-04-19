@@ -6,13 +6,13 @@ using namespace std;
 /*/bool es_perfecto(int x){
 int c=0;
 //para determinar los divisores
-for(int i=1;i==x/2;i++){
+for(int i=1;i<x;i++){
     if(x%i==0){
         cout<<i;
         c=c+i;
     }}
 
-if(x%c==0){
+if(c==x){
     return true;
 }
 else{
@@ -33,23 +33,17 @@ int potencia(int base, int exponente){
 }
 }
 bool esprimo(int num){
-
-
-    int divisor = 1, divisores = 0;
-
-    do{
-    if(num % divisor == 0){
-    divisores++;
+    if(num<1){
+        return false;
+        }
+    for(int i=2;i<num;i++){
+        if(!(num%i)){
+            return false;
+        }
     }
-    divisor++;
-    }while(divisor <= num);
-    if(divisores == 2){
     return true;
-    }else{
-    return false;
-    }
-
 }
+
 
 void secuenciaPrimos(int num){
     int i=0;
